@@ -1,1 +1,0 @@
-# 932404.mamedov.nail.lab4

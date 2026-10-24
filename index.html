@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Предприниматель и стартапер</title>
+</head>
+
+<body>
+    <header>
+        <h1>Мамедов Наиль Закирович</h1>
+        <p>Предприниматель и стартапер</p>
+        <p id="welcome-message">Мой путь в мире бизнеса и стартапов</p>
+
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#ideas">Идеи стартапов</a></li>
+                <li><a href="#metrics">Ключевые метрики</a></li>
+                <li><a href="#contact">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img src="images/avatar.jpg" alt="Аватар предпринимателя" width="430" height="570" class="profile-img">
+
+        <section id="about">
+            <h2>Навыки</h2>
+            <ul>
+                <li>Маркетинг и продвижение</li>
+                <li>Управление проектами</li>
+                <li>Финансовое планирование</li>
+                <li>Разработка бизнес-стратегий</li>
+                <li>Анализ рынка</li>
+            </ul>
+        </section>
+
+        <section id="ideas">
+            <h2>Идеи стартапов</h2>
+            <div class="cards-container">
+                <article class="idea-card">
+                    <h3>EcoDelivery</h3>
+                    <p><strong>Проблема:</strong> Выбросы CO2 при доставке в городе.</p>
+                    <p><strong>Решение:</strong> Сервис доставки исключительно на электровелосипедах.</p>
+                </article>
+
+                <article class="idea-card">
+                    <h3>SmartInventory</h3>
+                    <p><strong>Проблема:</strong> Излишки товаров на складах малого бизнеса.</p>
+                    <p><strong>Решение:</strong> ИИ-прогнозирование спроса и закупок.</p>
+                </article>
+
+                <article class="idea-card">
+                    <h3>LocalConnect</h3>
+                    <p><strong>Проблема:</strong> Сложность поиска локальных поставщиков.</p>
+                    <p><strong>Решение:</strong> Платформа для B2B связей внутри региона.</p>
+                </article>
+
+                <article class="idea-card">
+                    <h3>SkillSwap</h3>
+                    <p><strong>Проблема:</strong> Дорогое бизнес-обучение для новичков.</p>
+                    <p><strong>Решение:</strong> Биржа бартерного обмена профессиональными навыками.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="metrics">
+            <h2>Ключевые метрики стартапа</h2>
+            <div class="dashboard-grid">
+                <div class="metric-block">
+                    <h3>MAU (Active Users)</h3>
+                    <p>Активные пользователи за месяц</p>
+                    <meter value="8500" min="0" max="10000" low="3000" high="8000" optimum="9000"></meter>
+                    <span class="metric-value">8 500 чел.</span>
+                </div>
+
+                <div class="metric-block">
+                    <h3>LTV (Lifetime Value)</h3>
+                    <p>Пожизненная ценность клиента</p>
+                    <meter value="450" min="0" max="500" low="100" high="400" optimum="480"></meter>
+                    <span class="metric-value">450 $</span>
+                </div>
+
+                <div class="metric-block">
+                    <h3>CAC (Acquisition Cost)</h3>
+                    <p>Стоимость привлечения клиента</p>
+                    <meter value="45" min="0" max="200" low="50" high="150" optimum="20"></meter>
+                    <span class="metric-value">45 $</span>
+                </div>
+
+                <div class="metric-block">
+                    <h3>Финансовая
+					аналитика</h3>
+                    <p>Анализ выручки по дням</p>
+                    <p>Общая выручка: <span id="total-revenue" class="metric-value">-</span></p>
+                    <p>Максимум: <span id="max-revenue" class="metric-value">-</span></p>
+                    <p>Среднее: <span id="avg-revenue" class="metric-value">-</span></p>
+                    <p>Дни с низкой выручкой (≤3000₽): <span id="low-days" class="metric-value">-</span> (<span id="low-days-share">-</span>%)</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Обратная связь</h2>
+            <form>
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+
+                <label for="email">Ваш Email:</label>
+                <input type="email" id="email" name="email" placeholder="Введите ваш Email">
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" placeholder="Введите сообщение"></textarea>
+
+                <button type="submit" class="submit-button">Отправить сообщение</button>
+            </form>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Моя ключевая ценность</h2>
+        <p>Успешный бизнес начинается с идеи, которая решает реальную проблему людей.</p>
+    </aside>
+
+    <footer>
+        <p>© 2026. Все права защищены.</p>
+        <p><a href="https://github.com/naile-dsc">Мой GitHub</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
